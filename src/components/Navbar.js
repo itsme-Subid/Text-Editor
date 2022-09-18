@@ -27,7 +27,7 @@ export default function Navbar(props) {
       <header>
         <div className="wrapper-header container">
           <div className="hidden hamburger" onClick={doTranslate}>
-            <img src="https://itsme-subid.github.io/Blog-2022/assets/hamburger.svg" />
+            <img src="https://itsme-subid.github.io/Blog-2022/assets/hamburger.svg" alt=""/>
           </div>
           <div className="logo">
             <a href="/index.html">{props.title}</a>
